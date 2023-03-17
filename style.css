@@ -21,8 +21,8 @@ body {
 .blue {
     border-radius: 10px;
     background: linear-gradient(0.15turn, rgb(5, 5, 179), rgb(4, 4, 230), rgb(232, 232, 250));
-    width: 800px;
-    height: 300px;
+    width: 500px;
+    height: auto;
     padding: 25px 20px;
 }
 p {
@@ -56,6 +56,7 @@ sup {
 }
 .about {
     display: flex;
+    align-items: center;
 }
 .about p {
     margin-right: 2px;
@@ -78,13 +79,27 @@ h2 {
 
 @media (max-width:500px) {
     .blue {
-        width: 300px;
+        height: auto;
+        width: 380px;
         padding: 20px 15px;
         
     }
+    h3 {
+        font-size: 14px;
+    }
+    p {
+        font-size: 12px;
+    }
     .sunny {
         margin-bottom: 20px;
+        margin-top: 5px;
+    }
+    .sunny h1 {
         font-size: 3.0em;
+        margin-right: 15px;
+    }
+    .icon {
+        margin-right: 15px;
     }
     sup {
         font-size: 20px;
@@ -94,5 +109,6 @@ h2 {
     }
     h2 {
         margin-bottom: 20px;
+        font-size: 14px;
     }
 }
