@@ -75,3 +75,24 @@ h2 {
     display: flex;
     justify-content: space-between;
 }
+
+@media (max-width:500px) {
+    .blue {
+        width: 300px;
+        padding: 20px 15px;
+        
+    }
+    .sunny {
+        margin-bottom: 20px;
+        font-size: 3.0em;
+    }
+    sup {
+        font-size: 20px;
+    }
+    .message h3 {
+        margin-right: 8px;
+    }
+    h2 {
+        margin-bottom: 20px;
+    }
+}
